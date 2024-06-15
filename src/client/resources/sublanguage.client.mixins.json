@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "tgmoss.sublanguage.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "AdvancementTitleMixin",
+    "BannerPatternTooltipMixin",
+    "EnchantmentTooltipMixin",
+    "GameOptionsMixin",
+    "HeldItemTooltipMixin",
+    "ItemTooltipMixin",
+    "LanguageManagerMixin",
+    "PotionTooltipMixin",
+    "ScreenAccessor",
+    "StatusEffectTooltipMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sublanguage",
+  "version": "${version}",
+  "name": "Sublanguage",
+  "description": "为游玩提供更多本地化语言配置。",
+  "authors": [
+    "Tgmoss"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/sublanguage",
+    "website": "https://space.bilibili.com/493618040"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sublanguage/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "tgmoss.sublanguage.client.SublanguageClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "sublanguage.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.x",
+    "java": ">=17"
+  }
+}
